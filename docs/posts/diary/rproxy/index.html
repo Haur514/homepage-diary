@@ -21,13 +21,13 @@ GitBucket用のサーバ導入してデータ突っ込むだけの高コスパ�
 新たに仮想マシンを立ち上げる． 仮想マシン内にdockerコンテナを作成し，プロキシサーバを立てる． ssl証明書発行する． プロキシサーバのipアドレスを固定する． 以前までのプロキシサーバを指していたグローバルipアドレスを，新たに立てたプロキシサーバに張り替える． 色々試行錯誤の末，なんとか解決できた． ipアドレス云々の部分でだいぶ躓き，時間を浪費した． ssl証明書とかは，研究室のドキュメントにやり方が載ってたのでかなり参考にした．
 所感 メモリの増設程度で，仮想マシンが動かなくなることあるんだなという思い． ipアドレスとかネットワーク周りの知識が身についた気もする．">
 <meta name="author" content="">
-<link rel="canonical" href="http://haur514.github.io/homepage-diary/posts/diary/rproxy/">
-<link crossorigin="anonymous" href="http://haur514.github.io/homepage-diary/assets/css/stylesheet.7140587df96a2b1a49eb723fa7063dc0c641a6cb638f3140e8d3beb4deae4f5c.css" integrity="sha256-cUBYfflqKxpJ63I/pwY9wMZBpstjjzFA6NO&#43;tN6uT1w=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://haur514.github.io/homepage-diary/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://haur514.github.io/homepage-diary/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://haur514.github.io/homepage-diary/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://haur514.github.io/homepage-diary/apple-touch-icon.png">
-<link rel="mask-icon" href="http://haur514.github.io/homepage-diary/safari-pinned-tab.svg">
+<link rel="canonical" href="https://haur514.github.io/homepage-diary/posts/diary/rproxy/">
+<link crossorigin="anonymous" href="https://haur514.github.io/homepage-diary/assets/css/stylesheet.7140587df96a2b1a49eb723fa7063dc0c641a6cb638f3140e8d3beb4deae4f5c.css" integrity="sha256-cUBYfflqKxpJ63I/pwY9wMZBpstjjzFA6NO&#43;tN6uT1w=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://haur514.github.io/homepage-diary/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://haur514.github.io/homepage-diary/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://haur514.github.io/homepage-diary/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://haur514.github.io/homepage-diary/apple-touch-icon.png">
+<link rel="mask-icon" href="https://haur514.github.io/homepage-diary/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <noscript>
@@ -81,12 +81,12 @@ GitBucket用のサーバ導入してデータ突っ込むだけの高コスパ�
 新たに仮想マシンを立ち上げる． 仮想マシン内にdockerコンテナを作成し，プロキシサーバを立てる． ssl証明書発行する． プロキシサーバのipアドレスを固定する． 以前までのプロキシサーバを指していたグローバルipアドレスを，新たに立てたプロキシサーバに張り替える． 色々試行錯誤の末，なんとか解決できた． ipアドレス云々の部分でだいぶ躓き，時間を浪費した． ssl証明書とかは，研究室のドキュメントにやり方が載ってたのでかなり参考にした．
 所感 メモリの増設程度で，仮想マシンが動かなくなることあるんだなという思い． ipアドレスとかネットワーク周りの知識が身についた気もする．" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://haur514.github.io/homepage-diary/posts/diary/rproxy/" /><meta property="og:image" content="http://haur514.github.io/homepage-diary/profile.jpeg"/><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://haur514.github.io/homepage-diary/posts/diary/rproxy/" /><meta property="og:image" content="https://haur514.github.io/homepage-diary/profile.jpeg"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-06-11T10:45:28+09:00" />
 <meta property="article:modified_time" content="2023-06-11T10:45:28+09:00" />
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://haur514.github.io/homepage-diary/profile.jpeg"/>
+<meta name="twitter:image" content="https://haur514.github.io/homepage-diary/profile.jpeg"/>
 
 <meta name="twitter:title" content="プロキシサーバに苦しめられた話"/>
 <meta name="twitter:description" content="注意 あんまりインフラに詳しくない大学院生が書いてます． なるべく誤りのないようにしますが， 本記事は僕の日記という側面が強いです． 間違ってても許してください．
@@ -113,19 +113,19 @@ GitBucket用のサーバ導入してデータ突っ込むだけの高コスパ�
       "@type": "ListItem",
       "position":  2 ,
       "name": "Posts",
-      "item": "http://haur514.github.io/homepage-diary/posts/"
+      "item": "https://haur514.github.io/homepage-diary/posts/"
     }, 
     {
       "@type": "ListItem",
       "position":  3 ,
       "name": "Diary",
-      "item": "http://haur514.github.io/homepage-diary/posts/diary/"
+      "item": "https://haur514.github.io/homepage-diary/posts/diary/"
     }, 
     {
       "@type": "ListItem",
       "position":  4 ,
       "name": "プロキシサーバに苦しめられた話",
-      "item": "http://haur514.github.io/homepage-diary/posts/diary/rproxy/"
+      "item": "https://haur514.github.io/homepage-diary/posts/diary/rproxy/"
     }
   ]
 }
@@ -147,14 +147,14 @@ GitBucket用のサーバ導入してデータ突っ込むだけの高コスパ�
   "dateModified": "2023-06-11T10:45:28+09:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://haur514.github.io/homepage-diary/posts/diary/rproxy/"
+    "@id": "https://haur514.github.io/homepage-diary/posts/diary/rproxy/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Diary",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://haur514.github.io/homepage-diary/favicon.ico"
+      "url": "https://haur514.github.io/homepage-diary/favicon.ico"
     }
   }
 }
@@ -176,7 +176,7 @@ GitBucket用のサーバ導入してデータ突っ込むだけの高コスパ�
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://haur514.github.io/homepage-diary" accesskey="h" title="Diary (Alt + H)">Diary</a>
+            <a href="https://haur514.github.io/homepage-diary" accesskey="h" title="Diary (Alt + H)">Diary</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -208,7 +208,7 @@ GitBucket用のサーバ導入してデータ突っ込むだけの高コスパ�
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="http://haur514.github.io/homepage-diary">Home</a>&nbsp;»&nbsp;<a href="http://haur514.github.io/homepage-diary/posts/">Posts</a>&nbsp;»&nbsp;<a href="http://haur514.github.io/homepage-diary/posts/diary/">Diary</a></div>
+    <div class="breadcrumbs"><a href="https://haur514.github.io/homepage-diary">Home</a>&nbsp;»&nbsp;<a href="https://haur514.github.io/homepage-diary/posts/">Posts</a>&nbsp;»&nbsp;<a href="https://haur514.github.io/homepage-diary/posts/diary/">Diary</a></div>
     <h1 class="post-title">
       プロキシサーバに苦しめられた話
     </h1>
@@ -272,12 +272,12 @@ ipアドレスとかネットワーク周りの知識が身についた気もす
     <ul class="post-tags">
     </ul>
 <nav class="paginav">
-  <a class="prev" href="http://haur514.github.io/homepage-diary/posts/works/saizeroulette/">
+  <a class="prev" href="https://haur514.github.io/homepage-diary/posts/works/saizeroulette/">
     <span class="title">« Prev</span>
     <br>
     <span>SaizeRoulette</span>
   </a>
-  <a class="next" href="http://haur514.github.io/homepage-diary/posts/diary/paper/">
+  <a class="next" href="https://haur514.github.io/homepage-diary/posts/diary/paper/">
     <span class="title">Next »</span>
     <br>
     <span>最近読んだ論文</span>
@@ -289,7 +289,7 @@ ipアドレスとかネットワーク周りの知識が身についた気もす
     </main>
     
 <footer class="footer">
-    <span>&copy; 2023 <a href="http://haur514.github.io/homepage-diary">Diary</a></span>
+    <span>&copy; 2023 <a href="https://haur514.github.io/homepage-diary">Diary</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
