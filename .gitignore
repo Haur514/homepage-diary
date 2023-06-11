@@ -1,0 +1,3 @@
+.hugo_build.lock
+hugo.toml
+/themes/hugo-PaperMod/*
