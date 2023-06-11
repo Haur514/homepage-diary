@@ -1,4 +1,4 @@
-# baseURL: http://haur514.github.io/homepage-diary
+baseURL: http://haur514.github.io/homepage-diary
 languageCode: ja
 title: Diary
 theme: hugo-PaperMod
@@ -12,6 +12,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
+canonifyurls: true
 
 languages:
     en:

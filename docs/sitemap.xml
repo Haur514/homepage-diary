@@ -2,30 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>http://haur514.github.io/homepage-diary/</loc>
     <lastmod>2023-06-11T18:45:28+09:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>http://haur514.github.io/homepage-diary/posts/</loc>
     <lastmod>2023-06-11T18:45:28+09:00</lastmod>
   </url><url>
-    <loc>/posts/works/saizeroulette/</loc>
+    <loc>http://haur514.github.io/homepage-diary/posts/works/saizeroulette/</loc>
     <lastmod>2023-06-11T18:45:28+09:00</lastmod>
   </url><url>
-    <loc>/posts/works/</loc>
+    <loc>http://haur514.github.io/homepage-diary/posts/works/</loc>
     <lastmod>2023-06-11T18:45:28+09:00</lastmod>
   </url><url>
-    <loc>/posts/diary/</loc>
+    <loc>http://haur514.github.io/homepage-diary/posts/diary/</loc>
     <lastmod>2023-06-11T10:45:28+09:00</lastmod>
   </url><url>
-    <loc>/posts/diary/rproxy/</loc>
+    <loc>http://haur514.github.io/homepage-diary/posts/diary/rproxy/</loc>
     <lastmod>2023-06-11T10:45:28+09:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>http://haur514.github.io/homepage-diary/categories/</loc>
   </url><url>
-    <loc>/series/</loc>
+    <loc>http://haur514.github.io/homepage-diary/series/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>http://haur514.github.io/homepage-diary/tags/</loc>
   </url><url>
-    <loc>/posts/diary/paper/</loc>
+    <loc>http://haur514.github.io/homepage-diary/posts/diary/paper/</loc>
   </url>
 </urlset>

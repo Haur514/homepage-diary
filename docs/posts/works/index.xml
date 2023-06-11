@@ -2,24 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Works on Diary</title>
-    <link>/posts/works/</link>
+    <link>http://haur514.github.io/homepage-diary/posts/works/</link>
     <description>Recent content in Works on Diary</description>
     <image>
       <title>Diary</title>
-      <url>profile.jpeg</url>
-      <link>profile.jpeg</link>
+      <url>http://haur514.github.io/homepage-diary/profile.jpeg</url>
+      <link>http://haur514.github.io/homepage-diary/profile.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Jun 2023 18:45:28 +0900</lastBuildDate><atom:link href="/posts/works/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jun 2023 18:45:28 +0900</lastBuildDate><atom:link href="http://haur514.github.io/homepage-diary/posts/works/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SaizeRoulette</title>
-      <link>/posts/works/saizeroulette/</link>
+      <link>http://haur514.github.io/homepage-diary/posts/works/saizeroulette/</link>
       <pubDate>Sun, 11 Jun 2023 18:45:28 +0900</pubDate>
       
-      <guid>/posts/works/saizeroulette/</guid>
-      <description>アプリの概要 サイゼリヤでランダムにメニューをピックできるアプリがあればおもろそうだなあ，というのが開発のモチベーション．
-開発期間 1日</description>
+      <guid>http://haur514.github.io/homepage-diary/posts/works/saizeroulette/</guid>
+      <description> アプリの概要 サイゼリヤでランダムにメニューをピックできるアプリがあればおもろそうだなあ，というのが開発のモチベーション．
+ここにデプロイしてる．
+開発期間 1日 (実質半日くらい)
+苦難 手元とデプロイ先で挙動に違いがあった． どうやらsetInterval()の利用が原因らしい． なぜ？？
+setInterval()の利用を制限することで解決したが，根本的な原因はわかっていない．
+GitHub Pagesの仕様な気がする．（同時に実行できるスレッドの本数に制限がある，など）
+所感 研究室の人たちとサイゼルーレット会したらそれなりに盛り上がった．
+普段からパチンコ/スロットやってる人が出したメニューが完璧なコース料理になってた．
+そらそんだけの運持ってたら賭け事やるよなあという気持ちになったし，やっぱり運の良さって人によって違うのかなという思いになった．
+サイゼルーレット会の様子 </description>
     </item>
     
   </channel>

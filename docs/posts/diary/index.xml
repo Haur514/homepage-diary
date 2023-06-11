@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Diary</title>
-    <link>/posts/diary/</link>
+    <link>http://haur514.github.io/homepage-diary/posts/diary/</link>
     <description>Recent content on Diary</description>
     <image>
       <title>Diary</title>
-      <url>profile.jpeg</url>
-      <link>profile.jpeg</link>
+      <url>http://haur514.github.io/homepage-diary/profile.jpeg</url>
+      <link>http://haur514.github.io/homepage-diary/profile.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Jun 2023 10:45:28 +0900</lastBuildDate><atom:link href="/posts/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jun 2023 10:45:28 +0900</lastBuildDate><atom:link href="http://haur514.github.io/homepage-diary/posts/diary/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>プロキシサーバに苦しめられた話</title>
-      <link>/posts/diary/rproxy/</link>
+      <link>http://haur514.github.io/homepage-diary/posts/diary/rproxy/</link>
       <pubDate>Sun, 11 Jun 2023 10:45:28 +0900</pubDate>
       
-      <guid>/posts/diary/rproxy/</guid>
+      <guid>http://haur514.github.io/homepage-diary/posts/diary/rproxy/</guid>
       <description>注意 あんまりインフラに詳しくない大学院生が書いてます． なるべく誤りのないようにしますが， 本記事は僕の日記という側面が強いです． 間違ってても許してください．
 経緯 アルバイトで，ある研究室にGitBucketを導入することになった． その研究室にはすでにIaaSの環境が整っており，自由に利用することができた． 利用予定のサーバのメモリが若干足りていなかったので，増設することになった． メモリを増設したところ，そのサーバで動いてたプロキシサーバがなんか動かなくなった．
 プロキシサーバの動作環境と発生した問題 IaaSに仮想マシンを立て，その上にdockerコンテナを置いてプロキシサーバを立てていた． メモリを増設した後，dockerコンテナ内部から外部へのネット接続が一切できなくなった． たとえば，以下のコマンドが動かない．
@@ -35,10 +35,10 @@ GitBucket用のサーバ導入してデータ突っ込むだけの高コスパ�
     
     <item>
       <title>最近読んだ論文</title>
-      <link>/posts/diary/paper/</link>
+      <link>http://haur514.github.io/homepage-diary/posts/diary/paper/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/posts/diary/paper/</guid>
+      <guid>http://haur514.github.io/homepage-diary/posts/diary/paper/</guid>
       <description>An Analysis of the Automatic Bug Fixing Performance of ChatGPT アーカイブ論文．
 最近流行りのLLM系APRツール． ChatGPTを使ったAPRがどの程度バグ修正できるか調査してた． Deepl系の手法より精度いいらしい．さすがChatGPT．すごい． 修正してたのがQuixBugsに対してのみなので，学習データから正解データ引っ張ってるだけにも見えた．気もした．
 ChatGPTってプログラム組むための機構が入ってるって聞いてたけど，どうなんやろう．</description>
