@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Diary</title>
+    <link>/</link>
+    <description>Recent content on Diary</description>
+    <image>
+      <title>Diary</title>
+      <url>profile.jpeg</url>
+      <link>profile.jpeg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 11 Jun 2023 18:45:28 +0900</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SaizeRoulette</title>
+      <link>/posts/works/saizeroulette/</link>
+      <pubDate>Sun, 11 Jun 2023 18:45:28 +0900</pubDate>
+      
+      <guid>/posts/works/saizeroulette/</guid>
+      <description>アプリの概要 サイゼリヤでランダムにメニューをピックできるアプリがあればおもろそうだなあ，というのが開発のモチベーション．
+開発期間 1日</description>
+    </item>
+    
+    <item>
+      <title>プロキシサーバに苦しめられた話</title>
+      <link>/posts/diary/rproxy/</link>
+      <pubDate>Sun, 11 Jun 2023 10:45:28 +0900</pubDate>
+      
+      <guid>/posts/diary/rproxy/</guid>
+      <description>注意 あんまりインフラに詳しくない大学院生が書いてます． なるべく誤りのないようにしますが， 本記事は僕の日記という側面が強いです． 間違ってても許してください．
+経緯 アルバイトで，ある研究室にGitBucketを導入することになった． その研究室にはすでにIaaSの環境が整っており，自由に利用することができた． 利用予定のサーバのメモリが若干足りていなかったので，増設することになった． メモリを増設したところ，そのサーバで動いてたプロキシサーバがなんか動かなくなった．
+プロキシサーバの動作環境と発生した問題 IaaSに仮想マシンを立て，その上にdockerコンテナを置いてプロキシサーバを立てていた． メモリを増設した後，dockerコンテナ内部から外部へのネット接続が一切できなくなった． たとえば，以下のコマンドが動かない．
+curl google.com (pingが入ってなかったのでcurl叩いてます)
+dockerコンテナの内部から外部へ繋げないので，プロキシサーバとして機能できなくなっていたようである．
+問題へのアプローチ とりあえず以下を試してみた．
+dockerコンテナの再起動 新たなdockerコンテナの作成 仮装マシンの再起動 サーバ本体の再起動 ここに書いた内容以外のアプローチもしたが，直らない． アルバイト代金は固定額なので，この時点で僕の時給は多分1000円くらいになってた．
+GitBucket用のサーバ導入してデータ突っ込むだけの高コスパバイトだと思ってたのに，なぜ．．．
+前述した1-4のアプローチにより，おそらく仮想マシンかサーバそのものに問題があると予想． この検証のため，新たに仮想マシンを立て，最小構成のプロキシサーバを構築してみた． 結果，プロキシサーバとして利用できることを確認． 問題が仮想マシンそのものにあるらしいとわかった．
+仮想マシンを立て直せばおそらくプロキシサーバを復活させられるだろうと安堵した．
+解決方法 やったことは以下の通り
+新たに仮想マシンを立ち上げる． 仮想マシン内にdockerコンテナを作成し，プロキシサーバを立てる． ssl証明書発行する． プロキシサーバのipアドレスを固定する． 以前までのプロキシサーバを指していたグローバルipアドレスを，新たに立てたプロキシサーバに張り替える． 色々試行錯誤の末，なんとか解決できた． ipアドレス云々の部分でだいぶ躓き，時間を浪費した． ssl証明書とかは，研究室のドキュメントにやり方が載ってたのでかなり参考にした．
+所感 メモリの増設程度で，仮想マシンが動かなくなることあるんだなという思い． ipアドレスとかネットワーク周りの知識が身についた気もする．</description>
+    </item>
+    
+    <item>
+      <title>最近読んだ論文</title>
+      <link>/posts/diary/paper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/diary/paper/</guid>
+      <description>An Analysis of the Automatic Bug Fixing Performance of ChatGPT アーカイブ論文．
+最近流行りのLLM系APRツール． ChatGPTを使ったAPRがどの程度バグ修正できるか調査してた． Deepl系の手法より精度いいらしい．さすがChatGPT．すごい． 修正してたのがQuixBugsに対してのみなので，学習データから正解データ引っ張ってるだけにも見えた．気もした．
+ChatGPTってプログラム組むための機構が入ってるって聞いてたけど，どうなんやろう．</description>
+    </item>
+    
+  </channel>
+</rss>

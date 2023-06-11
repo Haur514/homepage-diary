@@ -1,3 +1,6 @@
 .hugo_build.lock
-hugo.toml
 /themes/hugo-PaperMod/*
+
+.DS_Store
+
+robots.txt
