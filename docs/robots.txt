@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://haur514.github.io/homepage-diary/sitemap.xml
