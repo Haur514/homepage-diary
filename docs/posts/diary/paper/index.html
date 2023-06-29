@@ -7,7 +7,8 @@
 <meta name="robots" content="index, follow">
 <title>最近読んだ論文 | Diary</title>
 <meta name="keywords" content="">
-<meta name="description" content="Automated Program Repair in the Era of Large Pre-trained Language Models LLM系APRツールとSOTAなAPRの比較．(ICSE 2023)
+<meta name="description" content="Can OpenAI&rsquo;s Codex Fix Bugs? 基礎情報 出典：ICSE 2023
+概要 Codexは既存のDL系APR手法より上手くバグフィックスできるか？ ゼロショットラーニングで勝てる プロンプトエンジニアリングによってCodexの有効性は変わるか？ 変わる． codeと仕様書 (docstr) 渡すのが強い テストを検証用にしか利用していない．（DL系のいくつかも利用してない） 所管 Copilotの裏側，Codexやったんやという思い Codexってアルドノアゼロの火星兵器に近いなって思った． アルドノアゼロ -&gt; 火星でなんか最強の兵器が見つかる． 利用されてる技術は割とブラックボックス ブラックボックスを地球人が頑張って分析し，役立てる Codex -&gt; OpenAIがなんか最強のコーディングアシストAI開発する 利用されてる学習データや細かい技術はブラックボックス ブラックボックスを院生が頑張って分析し，多分役立てられない Automated Program Repair in the Era of Large Pre-trained Language Models LLM系APRツールとSOTAなAPRの比較．(ICSE 2023)
 LLMのパラメータ数が多い方が結果良い
 SOTAなAPRでは解決が困難な問題も，自然言語とプログラムコードを学習したLLMなら解決できる
 LLMの学習データの中に評価データが入ってしまっている可能性もあるが，ヒューマンパッチと異なる修正案も提案できることから，そのまま取ってきてるわけじゃなさそう
@@ -16,8 +17,7 @@ LLMの学習データの中に評価データが入ってしまっている可�
 自動修正適合性の論文で主張されていた内容と一緒 SOTAなAPRの技術と掛け合わせるとLLM系APRの精度上げられるよ
 所感
 Codexが最強すぎた ChatGPTってちゃんと先頭から文章作ってたんや，という驚き 自然言語系の学習を進めないといけないなという思い An Analysis of the Automatic Bug Fixing Performance of ChatGPT アーカイブ論文．
-最近流行りのLLM系APRツール． ChatGPTを使ったAPRがどの程度バグ修正できるか調査してた． Deepl系の手法より精度いいらしい．さすがChatGPT．すごい． 修正してたのがQuixBugsに対してのみなので，学習データから正解データ引っ張ってるだけにも見えた．気もした．
-ChatGPTってプログラム組むための機構が入ってるって聞いてたけど，どうなんやろう．">
+最近流行りのLLM系APRツール． ChatGPTを使ったAPRがどの程度バグ修正できるか調査してた． Deepl系の手法より精度いいらしい．さすがChatGPT．すごい． 修正してたのがQuixBugsに対してのみなので，学習データから正解データ引っ張ってるだけにも見えた．気もした．">
 <meta name="author" content="">
 <link rel="canonical" href="https://haur514.github.io/homepage-diary/posts/diary/paper/">
 <link crossorigin="anonymous" href="https://haur514.github.io/homepage-diary/assets/css/stylesheet.7140587df96a2b1a49eb723fa7063dc0c641a6cb638f3140e8d3beb4deae4f5c.css" integrity="sha256-cUBYfflqKxpJ63I/pwY9wMZBpstjjzFA6NO&#43;tN6uT1w=" rel="preload stylesheet" as="style">
@@ -65,7 +65,8 @@ ChatGPTってプログラム組むための機構が入ってるって聞いて�
 
     </style>
 </noscript><meta property="og:title" content="最近読んだ論文" />
-<meta property="og:description" content="Automated Program Repair in the Era of Large Pre-trained Language Models LLM系APRツールとSOTAなAPRの比較．(ICSE 2023)
+<meta property="og:description" content="Can OpenAI&rsquo;s Codex Fix Bugs? 基礎情報 出典：ICSE 2023
+概要 Codexは既存のDL系APR手法より上手くバグフィックスできるか？ ゼロショットラーニングで勝てる プロンプトエンジニアリングによってCodexの有効性は変わるか？ 変わる． codeと仕様書 (docstr) 渡すのが強い テストを検証用にしか利用していない．（DL系のいくつかも利用してない） 所管 Copilotの裏側，Codexやったんやという思い Codexってアルドノアゼロの火星兵器に近いなって思った． アルドノアゼロ -&gt; 火星でなんか最強の兵器が見つかる． 利用されてる技術は割とブラックボックス ブラックボックスを地球人が頑張って分析し，役立てる Codex -&gt; OpenAIがなんか最強のコーディングアシストAI開発する 利用されてる学習データや細かい技術はブラックボックス ブラックボックスを院生が頑張って分析し，多分役立てられない Automated Program Repair in the Era of Large Pre-trained Language Models LLM系APRツールとSOTAなAPRの比較．(ICSE 2023)
 LLMのパラメータ数が多い方が結果良い
 SOTAなAPRでは解決が困難な問題も，自然言語とプログラムコードを学習したLLMなら解決できる
 LLMの学習データの中に評価データが入ってしまっている可能性もあるが，ヒューマンパッチと異なる修正案も提案できることから，そのまま取ってきてるわけじゃなさそう
@@ -74,8 +75,7 @@ LLMの学習データの中に評価データが入ってしまっている可�
 自動修正適合性の論文で主張されていた内容と一緒 SOTAなAPRの技術と掛け合わせるとLLM系APRの精度上げられるよ
 所感
 Codexが最強すぎた ChatGPTってちゃんと先頭から文章作ってたんや，という驚き 自然言語系の学習を進めないといけないなという思い An Analysis of the Automatic Bug Fixing Performance of ChatGPT アーカイブ論文．
-最近流行りのLLM系APRツール． ChatGPTを使ったAPRがどの程度バグ修正できるか調査してた． Deepl系の手法より精度いいらしい．さすがChatGPT．すごい． 修正してたのがQuixBugsに対してのみなので，学習データから正解データ引っ張ってるだけにも見えた．気もした．
-ChatGPTってプログラム組むための機構が入ってるって聞いてたけど，どうなんやろう．" />
+最近流行りのLLM系APRツール． ChatGPTを使ったAPRがどの程度バグ修正できるか調査してた． Deepl系の手法より精度いいらしい．さすがChatGPT．すごい． 修正してたのがQuixBugsに対してのみなので，学習データから正解データ引っ張ってるだけにも見えた．気もした．" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://haur514.github.io/homepage-diary/posts/diary/paper/" /><meta property="og:image" content="https://haur514.github.io/homepage-diary/profile.jpeg"/><meta property="article:section" content="posts" />
 
@@ -85,7 +85,8 @@ ChatGPTってプログラム組むための機構が入ってるって聞いて�
 <meta name="twitter:image" content="https://haur514.github.io/homepage-diary/profile.jpeg"/>
 
 <meta name="twitter:title" content="最近読んだ論文"/>
-<meta name="twitter:description" content="Automated Program Repair in the Era of Large Pre-trained Language Models LLM系APRツールとSOTAなAPRの比較．(ICSE 2023)
+<meta name="twitter:description" content="Can OpenAI&rsquo;s Codex Fix Bugs? 基礎情報 出典：ICSE 2023
+概要 Codexは既存のDL系APR手法より上手くバグフィックスできるか？ ゼロショットラーニングで勝てる プロンプトエンジニアリングによってCodexの有効性は変わるか？ 変わる． codeと仕様書 (docstr) 渡すのが強い テストを検証用にしか利用していない．（DL系のいくつかも利用してない） 所管 Copilotの裏側，Codexやったんやという思い Codexってアルドノアゼロの火星兵器に近いなって思った． アルドノアゼロ -&gt; 火星でなんか最強の兵器が見つかる． 利用されてる技術は割とブラックボックス ブラックボックスを地球人が頑張って分析し，役立てる Codex -&gt; OpenAIがなんか最強のコーディングアシストAI開発する 利用されてる学習データや細かい技術はブラックボックス ブラックボックスを院生が頑張って分析し，多分役立てられない Automated Program Repair in the Era of Large Pre-trained Language Models LLM系APRツールとSOTAなAPRの比較．(ICSE 2023)
 LLMのパラメータ数が多い方が結果良い
 SOTAなAPRでは解決が困難な問題も，自然言語とプログラムコードを学習したLLMなら解決できる
 LLMの学習データの中に評価データが入ってしまっている可能性もあるが，ヒューマンパッチと異なる修正案も提案できることから，そのまま取ってきてるわけじゃなさそう
@@ -94,8 +95,7 @@ LLMの学習データの中に評価データが入ってしまっている可�
 自動修正適合性の論文で主張されていた内容と一緒 SOTAなAPRの技術と掛け合わせるとLLM系APRの精度上げられるよ
 所感
 Codexが最強すぎた ChatGPTってちゃんと先頭から文章作ってたんや，という驚き 自然言語系の学習を進めないといけないなという思い An Analysis of the Automatic Bug Fixing Performance of ChatGPT アーカイブ論文．
-最近流行りのLLM系APRツール． ChatGPTを使ったAPRがどの程度バグ修正できるか調査してた． Deepl系の手法より精度いいらしい．さすがChatGPT．すごい． 修正してたのがQuixBugsに対してのみなので，学習データから正解データ引っ張ってるだけにも見えた．気もした．
-ChatGPTってプログラム組むための機構が入ってるって聞いてたけど，どうなんやろう．"/>
+最近流行りのLLM系APRツール． ChatGPTを使ったAPRがどの程度バグ修正できるか調査してた． Deepl系の手法より精度いいらしい．さすがChatGPT．すごい． 修正してたのがQuixBugsに対してのみなので，学習データから正解データ引っ張ってるだけにも見えた．気もした．"/>
 
 
 <script type="application/ld+json">
@@ -130,12 +130,12 @@ ChatGPTってプログラム組むための機構が入ってるって聞いて�
   "@type": "BlogPosting",
   "headline": "最近読んだ論文",
   "name": "最近読んだ論文",
-  "description": "Automated Program Repair in the Era of Large Pre-trained Language Models LLM系APRツールとSOTAなAPRの比較．(ICSE 2023)\nLLMのパラメータ数が多い方が結果良い\nSOTAなAPRでは解決が困難な問題も，自然言語とプログラムコードを学習したLLMなら解決できる\nLLMの学習データの中に評価データが入ってしまっている可能性もあるが，ヒューマンパッチと異なる修正案も提案できることから，そのまま取ってきてるわけじゃなさそう\n生成したパッチのエントロピーが，plausibleかcorrectか判断する指標になるよ\n既存の研究と一緒 修正対象のソースコード長い方がうまくいくよ\n自動修正適合性の論文で主張されていた内容と一緒 SOTAなAPRの技術と掛け合わせるとLLM系APRの精度上げられるよ\n所感\nCodexが最強すぎた ChatGPTってちゃんと先頭から文章作ってたんや，という驚き 自然言語系の学習を進めないといけないなという思い An Analysis of the Automatic Bug Fixing Performance of ChatGPT アーカイブ論文．\n最近流行りのLLM系APRツール． ChatGPTを使ったAPRがどの程度バグ修正できるか調査してた． Deepl系の手法より精度いいらしい．さすがChatGPT．すごい． 修正してたのがQuixBugsに対してのみなので，学習データから正解データ引っ張ってるだけにも見えた．気もした．\nChatGPTってプログラム組むための機構が入ってるって聞いてたけど，どうなんやろう．",
+  "description": "Can OpenAI\u0026rsquo;s Codex Fix Bugs? 基礎情報 出典：ICSE 2023\n概要 Codexは既存のDL系APR手法より上手くバグフィックスできるか？ ゼロショットラーニングで勝てる プロンプトエンジニアリングによってCodexの有効性は変わるか？ 変わる． codeと仕様書 (docstr) 渡すのが強い テストを検証用にしか利用していない．（DL系のいくつかも利用してない） 所管 Copilotの裏側，Codexやったんやという思い Codexってアルドノアゼロの火星兵器に近いなって思った． アルドノアゼロ -\u0026gt; 火星でなんか最強の兵器が見つかる． 利用されてる技術は割とブラックボックス ブラックボックスを地球人が頑張って分析し，役立てる Codex -\u0026gt; OpenAIがなんか最強のコーディングアシストAI開発する 利用されてる学習データや細かい技術はブラックボックス ブラックボックスを院生が頑張って分析し，多分役立てられない Automated Program Repair in the Era of Large Pre-trained Language Models LLM系APRツールとSOTAなAPRの比較．(ICSE 2023)\nLLMのパラメータ数が多い方が結果良い\nSOTAなAPRでは解決が困難な問題も，自然言語とプログラムコードを学習したLLMなら解決できる\nLLMの学習データの中に評価データが入ってしまっている可能性もあるが，ヒューマンパッチと異なる修正案も提案できることから，そのまま取ってきてるわけじゃなさそう\n生成したパッチのエントロピーが，plausibleかcorrectか判断する指標になるよ\n既存の研究と一緒 修正対象のソースコード長い方がうまくいくよ\n自動修正適合性の論文で主張されていた内容と一緒 SOTAなAPRの技術と掛け合わせるとLLM系APRの精度上げられるよ\n所感\nCodexが最強すぎた ChatGPTってちゃんと先頭から文章作ってたんや，という驚き 自然言語系の学習を進めないといけないなという思い An Analysis of the Automatic Bug Fixing Performance of ChatGPT アーカイブ論文．\n最近流行りのLLM系APRツール． ChatGPTを使ったAPRがどの程度バグ修正できるか調査してた． Deepl系の手法より精度いいらしい．さすがChatGPT．すごい． 修正してたのがQuixBugsに対してのみなので，学習データから正解データ引っ張ってるだけにも見えた．気もした．",
   "keywords": [
     
   ],
-  "articleBody": "Automated Program Repair in the Era of Large Pre-trained Language Models LLM系APRツールとSOTAなAPRの比較．(ICSE 2023)\nLLMのパラメータ数が多い方が結果良い\nSOTAなAPRでは解決が困難な問題も，自然言語とプログラムコードを学習したLLMなら解決できる\nLLMの学習データの中に評価データが入ってしまっている可能性もあるが，ヒューマンパッチと異なる修正案も提案できることから，そのまま取ってきてるわけじゃなさそう\n生成したパッチのエントロピーが，plausibleかcorrectか判断する指標になるよ\n既存の研究と一緒 修正対象のソースコード長い方がうまくいくよ\n自動修正適合性の論文で主張されていた内容と一緒 SOTAなAPRの技術と掛け合わせるとLLM系APRの精度上げられるよ\n所感\nCodexが最強すぎた ChatGPTってちゃんと先頭から文章作ってたんや，という驚き 自然言語系の学習を進めないといけないなという思い An Analysis of the Automatic Bug Fixing Performance of ChatGPT アーカイブ論文．\n最近流行りのLLM系APRツール． ChatGPTを使ったAPRがどの程度バグ修正できるか調査してた． Deepl系の手法より精度いいらしい．さすがChatGPT．すごい． 修正してたのがQuixBugsに対してのみなので，学習データから正解データ引っ張ってるだけにも見えた．気もした．\nChatGPTってプログラム組むための機構が入ってるって聞いてたけど，どうなんやろう．\n",
-  "wordCount" : "41",
+  "articleBody": "Can OpenAI’s Codex Fix Bugs? 基礎情報 出典：ICSE 2023\n概要 Codexは既存のDL系APR手法より上手くバグフィックスできるか？ ゼロショットラーニングで勝てる プロンプトエンジニアリングによってCodexの有効性は変わるか？ 変わる． codeと仕様書 (docstr) 渡すのが強い テストを検証用にしか利用していない．（DL系のいくつかも利用してない） 所管 Copilotの裏側，Codexやったんやという思い Codexってアルドノアゼロの火星兵器に近いなって思った． アルドノアゼロ -\u003e 火星でなんか最強の兵器が見つかる． 利用されてる技術は割とブラックボックス ブラックボックスを地球人が頑張って分析し，役立てる Codex -\u003e OpenAIがなんか最強のコーディングアシストAI開発する 利用されてる学習データや細かい技術はブラックボックス ブラックボックスを院生が頑張って分析し，多分役立てられない Automated Program Repair in the Era of Large Pre-trained Language Models LLM系APRツールとSOTAなAPRの比較．(ICSE 2023)\nLLMのパラメータ数が多い方が結果良い\nSOTAなAPRでは解決が困難な問題も，自然言語とプログラムコードを学習したLLMなら解決できる\nLLMの学習データの中に評価データが入ってしまっている可能性もあるが，ヒューマンパッチと異なる修正案も提案できることから，そのまま取ってきてるわけじゃなさそう\n生成したパッチのエントロピーが，plausibleかcorrectか判断する指標になるよ\n既存の研究と一緒 修正対象のソースコード長い方がうまくいくよ\n自動修正適合性の論文で主張されていた内容と一緒 SOTAなAPRの技術と掛け合わせるとLLM系APRの精度上げられるよ\n所感\nCodexが最強すぎた ChatGPTってちゃんと先頭から文章作ってたんや，という驚き 自然言語系の学習を進めないといけないなという思い An Analysis of the Automatic Bug Fixing Performance of ChatGPT アーカイブ論文．\n最近流行りのLLM系APRツール． ChatGPTを使ったAPRがどの程度バグ修正できるか調査してた． Deepl系の手法より精度いいらしい．さすがChatGPT．すごい． 修正してたのがQuixBugsに対してのみなので，学習データから正解データ引っ張ってるだけにも見えた．気もした．\nChatGPTってプログラム組むための機構が入ってるって聞いてたけど，どうなんやろう．\n",
+  "wordCount" : "71",
   "inLanguage": "en",
   "datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
@@ -210,7 +210,47 @@ ChatGPTってプログラム組むための機構が入ってるって聞いて�
 
 </div>
   </header> 
-  <div class="post-content"><h3 id="automated-program-repair-in-the-era-of-large-pre-trained-language-models">Automated Program Repair in the Era of Large Pre-trained Language Models<a hidden class="anchor" aria-hidden="true" href="#automated-program-repair-in-the-era-of-large-pre-trained-language-models">#</a></h3>
+  <div class="post-content"><h3 id="can-openais-codex-fix-bugs">Can OpenAI&rsquo;s Codex Fix Bugs?<a hidden class="anchor" aria-hidden="true" href="#can-openais-codex-fix-bugs">#</a></h3>
+<h4 id="基礎情報">基礎情報<a hidden class="anchor" aria-hidden="true" href="#基礎情報">#</a></h4>
+<p>出典：ICSE 2023</p>
+<h4 id="概要">概要<a hidden class="anchor" aria-hidden="true" href="#概要">#</a></h4>
+<ul>
+<li>Codexは既存のDL系APR手法より上手くバグフィックスできるか？
+<ul>
+<li>ゼロショットラーニングで勝てる</li>
+</ul>
+</li>
+<li>プロンプトエンジニアリングによってCodexの有効性は変わるか？
+<ul>
+<li>変わる．</li>
+<li>codeと仕様書 (docstr) 渡すのが強い</li>
+</ul>
+</li>
+<li>テストを検証用にしか利用していない．（DL系のいくつかも利用してない）</li>
+</ul>
+<h4 id="所管">所管<a hidden class="anchor" aria-hidden="true" href="#所管">#</a></h4>
+<ul>
+<li>Copilotの裏側，Codexやったんやという思い</li>
+<li>Codexってアルドノアゼロの火星兵器に近いなって思った．
+<ul>
+<li>アルドノアゼロ -&gt;
+<ul>
+<li>火星でなんか最強の兵器が見つかる．</li>
+<li>利用されてる技術は割とブラックボックス</li>
+<li>ブラックボックスを地球人が頑張って分析し，役立てる</li>
+</ul>
+</li>
+<li>Codex -&gt;
+<ul>
+<li>OpenAIがなんか最強のコーディングアシストAI開発する</li>
+<li>利用されてる学習データや細かい技術はブラックボックス</li>
+<li>ブラックボックスを院生が頑張って分析し，多分役立てられない</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="automated-program-repair-in-the-era-of-large-pre-trained-language-models">Automated Program Repair in the Era of Large Pre-trained Language Models<a hidden class="anchor" aria-hidden="true" href="#automated-program-repair-in-the-era-of-large-pre-trained-language-models">#</a></h3>
 <p>LLM系APRツールとSOTAなAPRの比較．(ICSE 2023)</p>
 <ul>
 <li>
